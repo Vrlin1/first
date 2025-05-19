@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
+
+*{
+    font-family: "Jura", sans-serif;
+    font-weight: 600;
+}
+.main{
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 319px;
+}
+.jura-my {
+    width: 336px;
+    height: 103px;
+    background-color: #D9D9D9;
+    font-size: xx-large;
+    border: 0;
+}
+  
+
+.jura-chords{
+    width: 336px;
+    height: 103px;
+    background-color: #D9D9D9;
+    margin-top: 75px;
+    font-size: xx-large;
+    border: 0;
+}
+.jura-metronom{
+    width: 336px;
+    height: 103px;
+    background-color: #D9D9D9;
+    margin-top: 75px;
+    font-size: xx-large;
+    border: 0;
+}
+.main_circle{
+    width: 57px;
+    height: 56px;
+    border-radius: 30px;
+    background-color: #438FA1;
+}
+.sq_b{
+    width: 110px;
+    height: 82px;
+    background-color: #D9D9D9;
+}
+.sq_w{
+    width: 101px;
+    height: 103px;
+    background-color: #D9D9D9;
+}
+.jura{
+    display: block;
+    padding: 40px 0;
+    width: 336px;
+    background-color: #D9D9D9;
+    text-align: center;
+    font-size: 32px;
+    text-decoration: none;
+    color: black;
+}
+.c#bd{
+    width: 110px;
+    height: 113px;
+    margin-left: 75px;
+}
+.d#be{
+    width: 110px;
+    height: 113px;
+    margin-left: 237px;
+}
+
+.jura:nth-child(3), .jura:nth-child(2){
+    margin-top: 80px;
+} 
+.jura-dur{
+    width: 47px;
+    height: 24px;
+    margin-top: 7px;
+    background-color: #D9D9D9;
+    border: none;
+    -webkit-box-shadow: inset 0 3px 4px grey;
+    -moz-box-shadow: inset 0 0 10px #D9D9D9;
+}
+.jura-moll{
+    width: 47px;
+    height: 24px;
+    margin-top: 7px;
+    margin-left: 12px;
+    background-color: #D9D9D9;
+    border: none;
+    -webkit-box-shadow: inset 0 3px 4px grey;
+    -moz-box-shadow: inset 0 0 10px #D9D9D9;
+}
+.jura-dur-wh{
+    width: 47px;
+    height: 24px;
+    margin-top: 7px;
+    background-color: #D9D9D9;
+    border: none;
+    -webkit-box-shadow: inset 0 3px 4px grey;
+    -moz-box-shadow: inset 0 0 10px #D9D9D9;
+}
+.jura-moll-wh{
+    width: 47px;
+    height: 24px;
+    margin-top: 7px;
+    margin-left: 3px;
+    background-color: #D9D9D9;
+    border: none;
+    -webkit-box-shadow: inset 0 3px 4px grey;
+    -moz-box-shadow: inset 0 0 10px #D9D9D9;
+}
+.chords_window{
+    display: none;
+}
+
+.top-header{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0;
+}
+
+.bottom-header{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.jura-font{
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.jura-cis{
+    font-size: 32px;
+}
+.jura-b{
+    font-size: 24px;
+}
+.jura-d{
+    font-size: 32px;
+}
+
+.b_and_n_together{
+    display: flex;
+    justify-content: end;   
+}
+
+.jura-dis{
+    font-size: 32px;
+}
+.jura-e{
+    font-size: 32px;
+}
+
+.jura-fis{
+    font-size: 32px;
+}
+.jura-g{
+    font-size: 32px;
+}
+.jura-gis{
+    font-size: 32px;
+}
+.jura-a{
+    font-size: 32px;
+}
+.jura-ais{
+    font-size: 32px;
+}
+.metronom-window{
+    
+}
+
+.circles{
+    margin-top: 140px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.circle{
+    width: 25px;
+    height: 25px;
+    background-color: #4C4C4C;
+    border-radius: 25px;
+}
+.two{
+    width: 25px;
+    height: 25px;
+    background-color: #4C4C4C;
+    border-radius: 25px;
+}
+.three{
+    width: 25px;
+    height: 25px;
+    background-color: #4C4C4C;
+    border-radius: 25px;
+}
+.four{
+    width: 25px;
+    height: 25px;
+    background-color: #4C4C4C;
+    border-radius: 25px;
+}
+.pl_rng_min{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 215px;
+}
+.minus{
+    width: 44px;
+    height: 44px;
+    font-size: 48px;
+    background-color: #D9D9D9;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+}
+.plus{
+    width: 44px;
+    height: 44px;
+    font-size: 48px;
+    background-color: #D9D9D9;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+}
+.jura-bmp{
+    margin-top: 67px;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+}
+
+.str_stp{
+    margin: 55px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.start{
+    width: 140px;
+    height: 53px;
+    border: 1px solid black;
+    font-size: 40px;
+    background-color: white;
+}
+.stop{
+    margin-top: 65px;
+    width: 140px;
+    height: 53px;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 40px;
+}
+.q_one{
+    width: 57px;
+    height: 57px;
+    font-size: 32px;
+    border: 1px solid black;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+}
+.q_two{
+    width: 57px;
+    height: 57px;
+    font-size: 32px;
+    border: 1px solid black;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+}
+.q_three{
+    width: 57px;
+    height: 57px;
+    font-size: 32px;
+    border: 1px solid black;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+}
+.q_four{
+    width: 57px;
+    height: 57px;
+    font-size: 32px;
+    border: 1px solid black;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+}
+.quarters{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+}
