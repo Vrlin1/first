@@ -298,3 +298,7 @@
     justify-content: space-around;
     margin-top: 10px;
 }
+
+.value-bpm{
+    font-weight: bold;
+}

@@ -5,13 +5,18 @@ const qThree = document.querySelector('.q_three')
 const qFour = document.querySelector('.q_four')
 const bStart = document.querySelector('.start')
 const bStop = document.querySelector('.stop')
+const bMinus = document.querySelector('.minus')
+const bPlus = document.querySelector('.plus')
 
-let bpm = 20
 
 let myAudio = document.querySelector('.audio')
 let rangeUser = document.querySelector('.range')
+let output = document.querySelector('.range')
 let playFunction
+let bpm = 138
 
+updateBpm(output.value)
+ 
 function addCircle(count) {
     document.querySelector('.circles').innerHTML = ''
     for (let i = 0; i < count;i++){
@@ -19,7 +24,24 @@ function addCircle(count) {
             <div class="circle"></div>
         `
     }
-}
+} 
+  
+rangeUser.addEventListener('input', ()=>{
+    updateBpm(rangeUser.value)
+})
+
+
+bMinus.addEventListener('click', ()=>{
+    output.value--
+    updateBpm(output.value)
+})
+
+bPlus.addEventListener('click', ()=>{
+    output.value++
+    updateBpm(output.value)
+})
+
+
 
 
 //Вызов функции при нажатии на кнопки
@@ -33,7 +55,7 @@ qThree.addEventListener('click', ()=>{
     addCircle(3)
 })
 qFour.addEventListener('click', ()=>{
-   addCircle(3)
+   addCircle(4)
 })
 
 
@@ -51,3 +73,8 @@ bStart.addEventListener('click', ()=>{
 bStop.addEventListener('click', ()=>{
     clearInterval(playFunction)
 })
+
+function updateBpm(value){
+    document.querySelector('.value-bpm').innerHTML = value
+    bpm = value
+}
