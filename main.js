@@ -78,3 +78,20 @@ function updateBpm(value){
     document.querySelector('.value-bpm').innerHTML = value
     bpm = value
 }
+
+document.querySelector('.jura-chords').addEventListener('click', ()=>{
+      document.querySelector('.chords_window').style.display = 'block'
+      document.querySelector('.main').style.display = 'none'
+    })
+document.querySelector('.jura-metronom').addEventListener('click', ()=>{
+      document.querySelector('.metronom-window').style.display = 'block'
+      document.querySelector('.main').style.display = 'none'
+    })
+document.querySelector('.back-ch').addEventListener('click', ()=>{
+      document.querySelector('.main').style.display = 'flex'
+      document.querySelector('.chords_window').style.display = 'none'
+    })
+document.querySelector('.back-metr').addEventListener('click', ()=>{
+      document.querySelector('.main').style.display = 'flex'
+      document.querySelector('.metronom-window').style.display = 'none'
+    })

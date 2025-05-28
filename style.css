@@ -5,12 +5,12 @@
     font-weight: 600;
 }
 .main{
-    display: none;
+    display: flex;
     align-items: center;
     flex-direction: column;
     margin-top: 319px;
 }
-.jura-my {
+.jura-group {
     width: 336px;
     height: 103px;
     background-color: #D9D9D9;
@@ -172,7 +172,7 @@
     font-size: 32px;
 }
 .metronom-window{
-    
+    display: none;
 }
 
 .circles{
@@ -301,4 +301,18 @@
 
 .value-bpm{
     font-weight: bold;
+}
+.back-metr{
+    width: 45px;
+    height: 40px;
+}
+.back-ch{
+    width: 45px;
+    height: 40px;
+}
+.my-circle{
+    width: 57px;
+    height: 57px;
+    background-color: #438FA1;
+    border-radius: 50px;
 }
